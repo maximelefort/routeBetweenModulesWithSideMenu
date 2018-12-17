@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>B1</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>B1</h1>
+  <a [routerLink]="[ '/a/a1' ]">goto A1 (absolute path)</a><br /> <!-- absolute path -->
+  <a [routerLink]="[ '/a/a2' ]">goto A2 (absolute path)</a><br /> <!-- absolute path -->
+  <a [routerLink]="[ '/b/b2' ]">goto B2 (relative path)</a><br /> <!-- absolute path -->
+</ion-content>

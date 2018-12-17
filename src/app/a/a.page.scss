@@ -1,0 +1,11 @@
+ion-router-outlet {
+    //margin-top: $navbar-ios-height;
+    position: relative;
+    flex: 1;
+  }
+
+  ion-item.active {
+    ion-label {
+      font-weight: bold;
+    }
+  }
